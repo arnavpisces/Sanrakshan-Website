@@ -1,0 +1,117 @@
+*{
+    font-family: 'Alata', sans-serif;
+}
+.bg-success{
+    background-color:#2e8b57 !important;
+}
+.navbar-dark .navbar-brand{
+    font-family: 'Secular One', sans-serif;
+    font-size: 175%;
+}
+.donate-item{
+    background-color: #ffc914 !important;
+    border-radius: 0.5rem;
+    transition: background-color 0.25s;
+}
+.donate-item:hover{
+    background-color: black !important;
+}
+
+.donate-item a{
+    color:black !important;
+    transition: color 0.25s;
+}
+.donate-item a:hover{
+    color: #ffc914 !important;
+}
+.help-item{
+    background-color: #2e8b57 !important;
+    border-radius: 0.5rem;
+    transition: background-color 0.25s;
+}
+.help-item:hover{
+    background-color: white !important;
+}
+
+.help-item a{
+    color:white !important;
+    transition: color 0.25s;
+}
+.help-item a:hover{
+    color: #2e8b57 !important;
+}
+.card{
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+.card-img-overlay hr {
+    width: 100% !important;
+  }
+.card-img-overlay{
+    flex-direction: column;
+}
+.homepageTitle{
+    font-family: 'Secular One', sans-serif;
+    font-size: 650%;
+}
+.homepageTitlee .saaf{
+    font-size:275%;
+}
+.homepageTitle .initiative{
+    font-size:200%;
+}
+.bg-img{
+    background:transparent url('../images/splash.png') no-repeat center center;
+    
+    height:800px;
+    display: flex;
+}
+.container .homeContainer{
+    position: relative !important;
+    background-size:100% auto;
+    min-height: 100%;
+    max-width: 100%;
+}
+.navbar-fixed-top{
+    position: absolute !important;
+}
+.outerText{
+    min-height: 100%;
+}
+.inner{
+    color:white;
+    margin:auto;
+}
+.inner .card-title{
+    font-family: 'Secular One', sans-serif;
+    font-size: 650%;
+    text-align: center;
+}
+.inner .saaf{
+    font-size:275%;
+    text-align: center;
+
+}
+.inner .initiative{
+    text-align: center;
+    font-size:200%;
+}
+.navbar{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:9999;
+    min-width: 90%;
+}
+.nav-item{
+    margin-left:0.25rem;
+    margin-right:0.25rem;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
