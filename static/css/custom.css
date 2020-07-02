@@ -113,7 +113,7 @@ li{
     margin-right:0.25rem;
 }
 .container{
-    padding:20px;
+    padding:5px;
 }
 .text-center{
     font-size: 175%;
@@ -133,9 +133,16 @@ li{
     padding-top:0.75%;
     padding-bottom:0.75%;
 }
+.navbar-expand-lg.scrolled {
+    background-color: #20603b !important;
+    transition: background-color 200ms linear;
+  }
+.navbar-expand-lg {
+    transition: background-color 200ms linear;
+  }
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 1rem;
-        padding-left: 1rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
     }
 }
