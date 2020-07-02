@@ -14,6 +14,8 @@ def getMessage():
     name=request.form['name']
     email=request.form['email']
     message=request.form['message']
+    if len(name) == 0 or len(email) == 0 or len(message) == 0:
+        return redirect('contact-us')
     details=open('messages.txt','a')
     details.write("Name: "+name)
     details.write("\nEmail: "+email)
