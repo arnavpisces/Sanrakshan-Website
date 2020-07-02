@@ -8,6 +8,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
         <link href="https://fonts.googleapis.com/css2?family=Secular+One&family=Alata&family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         {% endblock %}
         
     </head>
@@ -59,6 +61,9 @@
                         <h5 class="homepageTitle">SANRAKSHAN</h5>   
                         <p class="saaf">Saaf Suthri Dilli - Hari Bhari Dilli <br></p>
                         <p class="initiative">A Green Initiative by Sanjey Puri</p>
+                        <a class="cta" href="#row-object">OUR MISSION</a>
+                        <br>
+                        <div class="arrow-down"></div>
                       </div>
                   </div>                        
               </div>
@@ -173,5 +178,33 @@
                 </div>
             </div>
         </div>
+        <footer id="sticky-footer" class="py-4 text-white-50 footer">
+            <div class="row row-center">
+                <div class="col-md-4 footer-col-md">
+                    <img class="footer-image" src="{{  url_for('static',filename='images/logo-transparent.png')  }}">
+                    <div class="beside-image">
+                        <h2 class="footer-heading">SANRAKSHAN</h2>
+                        <p style="font-size:90%;">A-1-A/34 A, Janak Puri, New Delhi-110058</p>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <h4>QUICK LINKS</h4>
+                </div>
+                <div class="col-md-4">
+                    <h4>asdfasdf</h4>
+                </div>
+            </div>
+          </footer>
+          <div class="footer-copyright">
+            <div class="row">
+                <div class="col-md-6">
+                    <small>Copyright &copy; - Sanrakshan | 2020. All Rights Reserved.</small>
+                </div>
+                <div class="col-md-6 social-icon-col">
+                    <a href="#" class="fa fa-facebook"></a>
+                </div>
+            </div>
+        </div>
     </body>
+    
 </html>
