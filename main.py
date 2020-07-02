@@ -5,6 +5,10 @@ app=Flask(__name__)
 def homepage():
     return render_template('index.html')
 
+@app.route('/contact-us')
+def contactPage():
+    return render_template('contact.html')
+
 
 if __name__=='__main__':
     app.run(host='0.0.0.0',debug=True)
