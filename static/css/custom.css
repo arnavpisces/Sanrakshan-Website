@@ -1,5 +1,9 @@
 *{
-    font-family: 'Alata', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+li{
+    font-family: Montserrat;
+    font-weight: 400;
 }
 .bg-success{
     background-color:#2e8b57 !important;
@@ -108,7 +112,27 @@
     margin-left:0.25rem;
     margin-right:0.25rem;
 }
-
+.container{
+    padding:20px;
+}
+.text-center{
+    font-size: 175%;
+    font-family: Montserrat;
+    font-weight: 800;
+    background-color: #2e8b57;
+    color:white;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.row{
+    margin-top: 2%;
+    background-color: #d9f2e4;
+    border-radius: 20px;
+}
+.objectives{
+    padding-top:0.75%;
+    padding-bottom:0.75%;
+}
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1rem;
