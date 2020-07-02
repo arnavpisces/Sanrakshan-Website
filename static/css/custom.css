@@ -32,7 +32,7 @@ html {
     color: #ffc914 !important;
 }
 .help-item{
-    background-color: #2e8b57 !important;
+    background-color: #6b298a !important;
     border-radius: 0.5rem;
     transition: background-color 0.25s;
 }
@@ -45,7 +45,7 @@ html {
     transition: color 0.25s;
 }
 .help-item a:hover{
-    color: #2e8b57 !important;
+    color: #6b298a !important;
 }
 .card{
     border: 0 !important;
@@ -131,15 +131,24 @@ html {
 }
 .row-object{
     margin-top: 2%;
-    background-color: #d9f2e4;
+    /* background-color: #d9f2e4; */
+    background: url('../images/trees-green.png');
     border-radius: 20px;
-}
-.row-object{
     padding-top:2%;
     padding-bottom:0.5%;
 }
 .navbar-expand-lg.scrolled {
-    background-color: #20603b !important;
+    /* background-color: #7cffcb  */
+    /* background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%); */
+
+    /* background-color: #3bb78f !important; */
+/* background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%); */
+background-color: #2e8b57 !important;
+background-image: linear-gradient(315deg, #9bdfb8 0%, #2e8b57 64%);
+/* background-color: #27a770 !important; */
+/* background-image: linear-gradient(315deg, #27a770 0%, #efefef 74%); */
+
+    /* background-color: #20603b !important; */
     transition: background-color 200ms linear;
   }
 .navbar-expand-lg {
@@ -158,7 +167,28 @@ html {
     color:black;
     font-weight: 900;
 }
-
+.row-about{
+    background: url('../images/trees-green.png');
+    border-radius: 20px;
+    padding-top:2%;
+    padding-bottom:0.5%;
+}
+.about-para{
+    text-align: center;
+    vertical-align: middle;
+}
+.logo-class{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo{
+    display:inline-block;
+    max-width:60% !important;
+    
+}
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.5rem;
