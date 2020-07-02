@@ -1,14 +1,25 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect
 
 app=Flask(__name__)
 @app.route('/')
 def homepage():
     return render_template('index.html')
 
-@app.route('/contact-us')
+@app.route('/contact-us', methods=['GET','POST'])
 def contactPage():
     return render_template('contact.html')
 
+@app.route('/send-message', methods=['GET','POST'])
+def getMessage():
+    name=request.form['name']
+    email=request.form['email']
+    message=request.form['message']
+    details=open('messages.txt','a')
+    details.write("Name: "+name)
+    details.write("\nEmail: "+email)
+    details.write("\nMessage: "+message+"\n")
+    details.close()
+    return redirect('contact-us')
 
 if __name__=='__main__':
     app.run(host='0.0.0.0',debug=True)
