@@ -358,6 +358,41 @@ html {
     background-color: #943441;
     color:white;
 }
+.row-center{
+    text-align: center;
+}
+.row-low-width{
+    /* width:70%; */
+}
+.contact-icons{
+    /* background-color: rgba(123,123,234,0.5); */
+    background-color:rgba(255,255,255,0.7);
+    display:inline-block;
+    width:70%;
+    font-size:4rem;
+    border-radius:20px;
+    margin-bottom:3%;
+    padding-top:1.2%;
+    /* padding-bottom:2%; */
+}
+.icon-text{
+    font-size:1.1rem;
+    font-weight:400;
+    /* margin-bottom: 10px; */
+}
+.icon-text a{
+    text-decoration:none;
+    color:black;
+}
+.bi-telephone-fill{
+    color:#943441;
+}
+.bi-envelope-fill{
+    color:rgb(0, 81, 128);
+}
+.bi-house-door-fill{
+    color:rgb(199, 164, 9);
+}
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.5rem;
