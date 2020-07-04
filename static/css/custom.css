@@ -370,7 +370,9 @@ html {
 }
 .contact-icons{
     /* background-color: rgba(123,123,234,0.5); */
-    background-color:rgba(255,255,255,0.7);
+    /* background-color:rgba(255,255,255,0.7); */
+
+    background : rgba(0, 0, 0,0.6);
     display:inline-block;
     width:70%;
     font-size:4rem;
@@ -380,13 +382,13 @@ html {
     /* padding-bottom:2%; */
 }
 .icon-text{
-    font-size:1.1rem;
-    font-weight:400;
+    font-size:0.8rem;
+    color:white;
     /* margin-bottom: 10px; */
 }
 .icon-text a{
     text-decoration:none;
-    color:black;
+    color:white;
 }
 .bi-telephone-fill{
     color:#943441;
@@ -400,6 +402,62 @@ html {
 .footer{
     text-align:center;
 }
+.privacy{
+    background: url(../images/leaves.jpg)center center;
+    padding:2rem;
+    text-align: center;
+}
+.privacy-head{
+    width:70%;
+    display:inline-block;
+}
+.privacy-policy{
+    text-align:left;
+}
+.policy-subhead{
+    font-weight:900;
+}
+.btn-link{
+    color:#194d30;
+}
+
+.text-center{
+    border-radius:5px;
+}
+.card-header button{
+    color: #194d30;
+}
+.card-header button:hover{
+    color:#194d30;
+}
+.card-header{
+    background-color:#194d303f;
+    border-radius:15px !important;
+    transition: background-color 100ms;
+}
+.card-header:hover{
+    background-color: white;
+}
+.card-header-odd{
+    background-color:#194d301c;
+    transition: background-color 100ms;
+    /* transition:color 100ms; */
+    
+}
+.card-header-odd button{
+    color: #194d30;
+}
+.card-header-odd button:hover{
+    color:#194d30;
+}
+.card-header-odd:hover{
+    color:#194d30;
+    background-color: white;
+}
+.card-header:hover ~ .btn-link a{
+    color:#194d30 !important;
+}
+
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.5rem;

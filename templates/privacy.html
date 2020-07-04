@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Contact Us - Sanrakshan</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
+        <link href="https://fonts.googleapis.com/css2?family=Secular+One&family=Alata&family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <script>
+            //This script is used to change the colour of the navbar when scrolled
+            $(function () {
+                $(document).scroll(function () {
+                    var $nav = $(".navbar-expand-lg");
+                    var $bg = $(".privacy-head");
+                    $nav.toggleClass('scrolled', $(this).scrollTop() > $bg.height());
+                });
+            });
+        </script>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-contact">
+            <div class="container">
+                <a class="navbar-brand" href="/">SANRAKSHAN</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link au" href="/#row-about">About Us <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link ogo" href="/#row-object">Our Green Objective</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link oc" href="/#row-campaign">Our Campaigns</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link awa" href="#">Awards</a>
+                    </li>
+                    <li class="nav-item help-item">
+                        <a class="nav-link help" href="/contact-us">Contact Us!</a>
+                    </li>
+                    <li class="nav-item donate-item">
+                        <a class="nav-link donate" href="#">Donate</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+          </nav>
+          <div class="privacy ">
+              <h1 class="text-center privacy-head" id="row-about">PRIVACY POLICY</h1>
+              <div class="row-object container" >
+                    <ul class="privacy-policy">
+                        <p class="policy-subhead">Information Gathering</p>
+                        <li>Sanrakshan NGO collects information from the users in a number of ways, for example when the user:<br>
+                            - Makes a donation<br>
+                            - Signs up for a campaign<br>
+                            - Signs up to stay updated</li>
+                        <li>While forwarding a donation for Sanrakshan NGO the well-wishers have to submit some personal information as it would help us ensuring genuine contributions:<br>
+                            - Your name<br>
+                            - Your email and mailing address<br>
+                            - Your telephone number<br>
+                            - Your payment processing details<br>
+                            - Any other data as required</li>
+                        <li>Sanrakshan NGO does not collect or record the user’s personal information unless he/she chooses to provide it.</li>
+                        <br>
+                        <p class="policy-subhead">Use of Personal Information</p>
+                        <li>General browsing of Sanrakshan NGO website is anonymous and it does not register the user's personal information except the time, date and place of visits and the name of the internet service provider. This data is used only for statistics and diagnosis.</li>
+                        <li>By signing up for various services offered by Sanrakshan NGO, the user explicitly authorizes us to collect information based on the user’s usage. The information is used to help provide a better experience to the user and is used as per the user’s specified instructions.</li>
+                        <li>Sanrakshan NGO keeps the user information strictly confidential and this information is secured safely. All relevant information collected through Sanrakshan NGO  website is handled and used by internal and authorized officials only. It is never shared with any external agencies or third party individuals.</li>
+                        <li>Sanrakshan NGO uses the information given to it in the following ways:<br>
+                            - To keep an accurate record of all the donations received.<br>
+                            - To update users about its happenings and developments through bulletins and newsletters, with an option of not to subscribe for the same.<br>
+                            - To make sure the user is receiving the most appropriate and relevant information.<br>
+                            - To find out more about the people who are visiting the Sanrakshan NGO website, donating, or joining its campaigns.</li>
+                        <li>Usually, Sanrakshan NGO does not store user data. In case of specific sign-ups, the data is stored as per user request. The user can opt to delete all the information he/she has provided by simply requesting such by mail. All information, without exception, will be deleted in two working days.</li>
+                        <br>
+                        <p class="policy-subhead">Privacy of email lists</p>
+                        <li>Individuals who join Sanrakshan NGO mailing lists via its website or through its campaigning engagements are added to its email database. Sanrakshan NGO does not sell, rent, loan, trade, or lease the addresses on our lists to anyone.</li>
+                        <br>
+                        <p class="policy-subhead">Cookie Policy</p>
+                        <li>Cookies are pieces of electronic information which will be sent by Sanrakshan NGO when a user visits the website. These will be placed in the hard disk of the user’s computer and enable Sanrakshan NGO to recognise the user when he/she visits the website again.</li>
+                        <li>The user can configure his/her browser so that it responds to cookies the way he/she deems fit. For example, you want to accept all cookies, reject them all or get notified when a cookie is sent. The users may check their browser’s settings to modify cookie behaviour as per individual behaviour.</li>
+                        <li>If a user disables the use of cookies on the web browser, or removes or rejects specific cookies from Sanrakshan NGO website or linked sites then he/she may not be able to use the website as it is intended.</li>
+                        <br>
+                        <p class="policy-subhead">Payment Gateway</p>
+                        <li>Sanrakshan NGO uses well-recognised and proven technology for payments. Payment information is transferred by the use of an SSL connection which offers the highest degree of security that the donor’s browser is able to support.</li>
+                        <li>Several layers of built-in security, including an advanced firewall system, encryption of credit card numbers, and use of passwords, protect the collected information.</li>
+                        <br>
+                        <p class="policy-subhead">External Web Services</p>
+                        <li>Sanrakshan NGO uses a number of external web services on its site to display content within its web pages. For example, to display video it uses YouTube. As with the social media buttons, Sanrakshan NGO cannot prevent these sites, or external domains, from collecting information on the user’s consumption of the content embedded on its site.</li>
+                        <li>The Sanrakshan NGO website contains links to other websites for the benefit of its visitors. This Privacy Policy does not apply to such other websites.</li>
+                        <li>Sanrakshan NGO is not expressly or impliedly responsible for, or liable to any loss or damage caused to a user by the collection, use and retention of Personal Information by such website in any manner whatsoever. It is important that the users review the privacy policies of all websites they visit before disclosing any information to such websites.</li>
+                        <br>
+                        <p class="policy-subhead">Changes to Privacy Policy</p>
+                        <li>As and when the need arises, Sanrakshan NGO may alter its privacy policy in accordance with the latest technology and trends. It will provide you with timely notice of these changes. The users may reach out to Sanrakshan NGO if they have any queries about any changes made to its practices.</li>
+                        <br>
+                        <p class="policy-subhead">Refund and Cancellation Policy</p>
+                        <p>Welcome to this website of Sanrakshan NGO. We make public our policy on refund and cancellation of donations received for the social cause on payment gateway as under:-</p>
+                        <li>No refund/cancellation for the donated amount by any donor will not be entertained, the online donations through the online payment gateway.</li>
+                        <li>No cash or refund of money will be allowed.<br>If any in-kind support received by the donor from any where the material will be reached to the poorest of the poorer communities.</li>
+                        <li>Once received the donation for a cause will not be refunded to the donor. No cancellation to be made. The donation will be used for community development, children education or women’s empowerment.</li>
+                        <br>
+                        <p class="policy-subhead">Terms & Conditions</p>
+                        <p>Use of this site is provided by Sanrakshan NGO subject to the following Terms and Conditions:</p>
+                        <li>Sanrakshan NGO reserves the rights to change these terms and conditions at any time by posting changes online. Your continued use of this site after changes are posted constitutes your acceptance of this agreement as modified. You agree to use this site only for lawful purposes, and in a manner which does not infringe the rights, or restrict, or inhibit the use and enjoyment of the site by any third party.</li>
+                        <li>This site and the information, names, images, pictures, logos regarding or relating to Sanrakshan NGO are provided “as is” without any representation or endorsement made and without warranty of any kind whether express or implied. In no event will Sanrakshan NGO be liable for any damages including, without limitation, indirect or consequential damages, or any damages whatsoever arising from the use or in connection with such use or loss of use of the site, whether in contract or in negligence.</li>
+                        <li>Sanrakshan NGO does not warrant that the functions contained in the material contained in this site will be uninterrupted or error free, that defects will be corrected, or that this site or the server that makes it available are free of viruses or bugs or represents the full functionality, accuracy and reliability of the materials.</li>
+                        <br>
+                        <p class="policy-subhead">Copyright Restrictions</p>
+                        <li>Commercial use or publication of all or any item displayed is strictly prohibited without prior authorization from Sanrakshan NGO. Nothing contained herein shall be construed as conferring any license by Sanrakshan NGO to use any item displayed.</li>
+                        <li>Documents may be copied for personal use only on the condition that copyright and source indications are also copied, no modifications are made and the document is copied entirely. However, some documents and photos have been published on this site with the permission of the relevant copyright owners (who are not Sanrakshan NGO). All rights are reserved on these documents and permission to copy them must be requested from the copyright owners (the sources are indicated within these documents/photographs).</li>
+                        <li>Sanrakshan NGO takes no responsibility for the content of external Internet sites. Other websites that we link to are owned and operated by third parties and Sanrakshan NGO has no control over them. The fact that we include links to other websites does not mean that Sanrakshan NGO approves of or endorses any other third party website or the content of that website. We accept no liability for any statements, information, products or services that are published on or are accessible through any websites owned or operated by third parties.</li>
+                        <li>Any communication or material that you transmit to, or post on, any public area of the site including any data, questions, comments, suggestions, or the like, is, and will be treated as, non-confidential and nonproprietary information. If there is any conflict between these terms and conditions and rules and/or specific terms of use appearing on this site relating to specific material then the latter shall prevail.</li>
+                        <br>
+                        <p>These terms and conditions shall be governed and construed in accordance with the laws of India.</p>
+                        <p>If these terms and conditions are not accepted in full, the use of this site must be terminated immediately.</p>
+                    </ul>
+                </div>
+            </div>
+          <footer id="sticky-footer" class="py-4 text-white-50 footer">
+            <div class="row">
+                <div class="col-md-6 footer-col-md">
+                    <img class="footer-image" src="{{  url_for('static',filename='images/logo-transparent.png')  }}">
+                    <div class="beside-image">
+                        <h2 class="footer-heading">SANRAKSHAN</h2>
+                        <p style="font-size:90%;">A-1-A/34 A, Janak Puri, New Delhi-110058</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="footer-subhead">QUICK LINKS</h5>
+                    <a class="footer-anchor" href="/contact-us">Contact Us</a>
+                    <a class="footer-anchor" href="#">Donate</a>
+                    <a class="footer-anchor" href="/privacy">Privacy Policy</a>
+                </div>
+            </div>
+          </footer>
+          <div class="footer-copyright">
+            <div class="row">
+                <div class="col-md-6">
+                    <small>Copyright &copy; - Sanrakshan | 2020. All Rights Reserved.</small>
+                </div>
+                <div class="col-md-6 social-icon-col">
+                    <a href="https://www.facebook.com/sanjay.puri.714655" class="fa fa-facebook"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

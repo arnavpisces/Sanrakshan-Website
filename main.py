@@ -9,6 +9,10 @@ def homepage():
 def contactPage():
     return render_template('contact.html')
 
+@app.route('/privacy')
+def privacyPage():
+    return render_template('privacy.html')
+
 @app.route('/send-message', methods=['GET','POST'])
 def getMessage():
     name=request.form['name']
