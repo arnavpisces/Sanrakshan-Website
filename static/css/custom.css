@@ -157,10 +157,11 @@ html {
     display: inline-block;
 }
 .slide-text{
-    background-color: #2e8b56;
+    background-color: #2e8b56a5;
     color:white;
     font-weight: 400;
     border-radius:5px;
+    font-size:1rem;
 }
 .row-about{
     background: url('../images/trees-green.png');
