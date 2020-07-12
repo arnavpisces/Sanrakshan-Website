@@ -2,7 +2,7 @@
  <html lang="en">
     <head>
         <Meta charset="utf-8">
-            <meta name="description" content="Sanrakshan NGO">
+        <meta name="privacy policy" content="Sanrakshan NGO">
         <title>Privacy Policy | Sanrakshan</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -11,8 +11,17 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
         <link href="https://fonts.googleapis.com/css2?family=Secular+One&family=Alata&family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172480595-1"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-172480595-1');
+        </script>
     </head>
     <body>
+        
         <script>
             //This script is used to change the colour of the navbar when scrolled
             $(function () {
@@ -40,14 +49,14 @@
                     <li class="nav-item">
                     <a class="nav-link oc" href="/#row-campaign">Our Campaigns</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                     <a class="nav-link awa" href="#">Awards</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item help-item">
                         <a class="nav-link help" href="/contact-us">Contact Us!</a>
                     </li>
                     <li class="nav-item donate-item">
-                        <a class="nav-link donate" href="#">Donate</a>
+                        <a class="nav-link donate" href="/donate">Donate</a>
                     </li>
                 </ul>
                 </div>
@@ -136,7 +145,7 @@
                 <div class="col-md-6">
                     <h5 class="footer-subhead">QUICK LINKS</h5>
                     <a class="footer-anchor" href="/contact-us">Contact Us</a>
-                    <a class="footer-anchor" href="#">Donate</a>
+                    <a class="footer-anchor" href="/donate">Donate</a>
                     <a class="footer-anchor" href="/privacy">Privacy Policy</a>
                 </div>
             </div>
@@ -148,6 +157,13 @@
                 </div>
                 <div class="col-md-6 social-icon-col">
                     <a href="https://www.facebook.com/sanjay.puri.714655" class="fa fa-facebook" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright2">
+            <div class="column">
+                <div class="row-centre-donate">
+                    <small>Website Developed by <a href="https://www.instagram.com/this.is.arnav/" target="_blank">Arnav</a> and <a href="https://www.instagram.com/gurpreetdhill0n/" target="_blank">Gurpreet</a></small>
                 </div>
             </div>
         </div>

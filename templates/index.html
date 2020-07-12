@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
     <head>
+      <Meta charset="utf-8">
+        <meta name="welcome to sanrakshan. plantation drives, rallies" content="Sanrakshan NGO">
         <title>Welcome | Sanrakshan</title>
         {% block head %}
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -11,10 +13,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Secular+One&family=Alata&family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172480595-1"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-172480595-1');
+        </script>
         {% endblock %}
         
     </head>
     <body>
+      
         <script>
             //This script is used to change the colour of the navbar when scrolled
             $(function () {
@@ -42,14 +53,14 @@
                     <li class="nav-item">
                     <a class="nav-link oc" href="#row-campaign">Our Campaigns</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                     <a class="nav-link awa" href="#">Awards</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item help-item">
-                        <a class="nav-link help" href="/contact-us">Contact Us?</a>
+                        <a class="nav-link help" href="/contact-us">Contact Us!</a>
                     </li>
                     <li class="nav-item donate-item">
-                        <a class="nav-link donate" href="#">Donate</a>
+                        <a class="nav-link donate" href="/donate">Donate</a>
                     </li>
                 </ul>
                 </div>
@@ -73,7 +84,11 @@
             <h1 class="text-center" id="row-about">ABOUT US</h1>
             <div class="row row-about">
                 <div class="col-sm-6 about-para">
-                    <p>Etiam augue odio, venenatis sit amet fermentum non, mollis ut nulla. Nulla laoreet sollicitudin facilisis. Ut consectetur maximus velit et consequat. Aenean imperdiet velit et vehicula sagittis. Integer sollicitudin elit ante, in sollicitudin quam facilisis ac. Nullam vulputate, arcu eget bibendum lacinia, ante enim lobortis tellus, vel pretium dolor mauris a nunc. Integer rutrum molestie felis, a sollicitudin felis interdum quis. Fusce lectus augue, ornare quis viverra id, elementum eget ex. Quisque semper aliquam facilisis. Aenean maximus dictum nulla. Integer luctus arcu dolor, non sagittis leo bibendum a. Phasellus egestas imperdiet magna, id porta risus finibus id. Aliquam at neque at tellus condimentum scelerisque. Maecenas quis luctus massa, quis hendrerit mi. Ut sed velit mattis, suscipit ante id, vehicula elit. Nam molestie ligula rhoncus, tempus velit quis, mollis tortor.</p>    
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <!-- <iframe  src="https://www.youtube.com/watch?v=fkVKbW0Dot0" allowfullscreen></iframe> -->
+                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/fkVKbW0Dot0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                    <!-- <p>Etiam augue odio, venenatis sit amet fermentum non, mollis ut nulla. Nulla laoreet sollicitudin facilisis. Ut consectetur maximus velit et consequat. Aenean imperdiet velit et vehicula sagittis. Integer sollicitudin elit ante, in sollicitudin quam facilisis ac. Nullam vulputate, arcu eget bibendum lacinia, ante enim lobortis tellus, vel pretium dolor mauris a nunc. Integer rutrum molestie felis, a sollicitudin felis interdum quis. Fusce lectus augue, ornare quis viverra id, elementum eget ex. Quisque semper aliquam facilisis. Aenean maximus dictum nulla. Integer luctus arcu dolor, non sagittis leo bibendum a. Phasellus egestas imperdiet magna, id porta risus finibus id. Aliquam at neque at tellus condimentum scelerisque. Maecenas quis luctus massa, quis hendrerit mi. Ut sed velit mattis, suscipit ante id, vehicula elit. Nam molestie ligula rhoncus, tempus velit quis, mollis tortor.</p>     -->
                 </div>
                 <div class="col-sm-6 logo-class">
                     <img src="{{  url_for('static',filename='images/logo-transparent.png')  }}" class="logo img-fluid" alt="Responsive image">                    
@@ -381,7 +396,7 @@
                 <div class="col-md-6">
                     <h5 class="footer-subhead">QUICK LINKS</h5>
                     <a class="footer-anchor" href="/contact-us">Contact Us</a>
-                    <a class="footer-anchor" href="#">Donate</a>
+                    <a class="footer-anchor" href="/donate">Donate</a>
                     <a class="footer-anchor" href="/privacy">Privacy Policy</a>
                 </div>
             </div>
@@ -396,6 +411,13 @@
                 </div>
             </div>
         </div>
+        <div class="footer-copyright2">
+          <div class="column">
+              <div class="row-centre-donate">
+                  <small>Website Developed by <a href="https://www.instagram.com/this.is.arnav/" target="_blank">Arnav</a> and <a href="https://www.instagram.com/gurpreetdhill0n/" target="_blank">Gurpreet</a></small>
+              </div>
+          </div>
+      </div>
     </body>
     
 </html>

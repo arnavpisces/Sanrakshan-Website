@@ -458,7 +458,25 @@ html {
 .card-header:hover ~ .btn-link a{
     color:#194d30 !important;
 }
-
+.footer-copyright2{
+    padding:0;
+}
+.row-centre-donate{
+    background-color: black;
+    color:white;
+    text-align: center;
+    border-color: black;
+}
+.donate-head{
+    text-align: center;
+    color:#2e8b57;
+    border-color: #2e8b57;
+    padding:10%;
+    background-color: black;
+    display:inline-block;
+    /* padding-top:20%; */
+    margin-top:13%;
+}
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.5rem;

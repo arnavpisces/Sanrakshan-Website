@@ -13,6 +13,10 @@ def contactPage():
 def privacyPage():
     return render_template('privacy.html')
 
+@app.route('/donate')
+def donatePage():
+    return render_template('donate.html')
+
 @app.route('/send-message', methods=['GET','POST'])
 def getMessage():
     name=request.form['name']
